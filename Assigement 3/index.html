@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assigement 3</title>
+</head>
+<body>
+    <H1>Travel Reservation Form</H1>
+    <h4>* denotes mandatory</h4>
+    <form>
+        <label for="Fname">Full Name*: </label><br>
+        <input type="text" name="Fname" placeholder="FirstName LastName">
+<br>
+        <label for="Email">Email adress*: </label><br>
+        <input type="Email" name="Email" placeholder="EMAIL_ADRESS">
+<br>
+		<label for="tour_pkg">Select Tour Package*: </label><br>
+			<select>
+                <option>Goa</option>
+                <option>Delhi</option>
+                <option>bombay</option>
+                <option>chennai</option>
+                <option>banglore</option>
+            </select>
+<br>        
+        <label for="date">Arrival date*: </label><br>
+        <input type="date" name="date" placeholder="m/d/y">
+<br>
+        <label for="person">Number of persons*: </label><br>
+        <input type="number" name="person" placeholder="UNKNOWN_TYPE">
+<br>
+        <label for="offer">What would you want to avail?* </label><br>
+        <label for="Boarding">Boarding</label><input type="Checkbox" name="Boarding"><br>
+        <label for="Fooding">Fooding</label><input type="checkbox" name="Fooding"><br>
+        <label for="sight">Sight seeing</label><input type="Checkbox" name="sight">
+<br>
+        <label for="coupon">Discount Coupon code:</label><br>
+        <input type="text" name="coupon" placeholder="UNKNOWN_TYPE">
+<br>
+        <label for="Conditions">Terms and conditions*</label><br>
+        <input type="radio" name="condition"><label for="agress">I agree</label>
+        <input type="radio" name="condition"><label for="not agress">I disagree</label><br>
+        <input type="submit" value="Complete reservation">
+    </form>
+</body>
+</html>
